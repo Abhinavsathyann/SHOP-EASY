@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <title>LAND PAGE</title>
+    </head>
+ 
+    <style>
+body{
+            background-color: black;
+            color: aliceblue;
+            font-family: Arial, sans-serif;
+            display: flex;
+     }
+a{
+   text-decoration: none; 
+   color: aliceblue;
+}
+a:hover{
+   text-decoration: underline;
+   color: aliceblue;
+   font-size: 18px;
+   
+}
+.container{
+    width: 100%;
+    
+    }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    height: 20px;
+    padding: 20px;
+    font-weight: bold;
+    
+   
+}
+
+.navbar .logo{
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar .img{
+    width: 50px;
+    
+}
+
+.navbar .Nav-links{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.navbar .sign-in{
+    background-color: blue;
+    border-radius: 60px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar .sign-in:hover{
+    text-decoration: underline;
+    background-color: rgba(0, 0, 255, 0.721);
+}
+
+.hero{
+    background-image: url('https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?t=st=1733479195~exp=1733482795~hmac=7b477b1396bfead7cc99c0bbb3811770850184eb9b11c47dda7e018d42ae13c8&w=900');
+    width: 100%;
+    height: 100vh; 
+    background-size: cover;
+
+}
+.welcome-text{
+    color: #5C4033;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding: 1px;
+    font-size: 40px
+    
+}
+
+.search-bar{
+    padding: 50px;
+
+}
+
+.search-bar-1{
+    border-radius: 16px;
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+    height: 40px;
+    background-color: transparent;
+}
+.btn1{
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    background-color: transparent;
+}
+
+.btn1:hover:hover{
+    background-color:rgba(255, 174, 0, 0.86); ;
+}
+.search-bar-1:hover{
+    background-color: rgba(255, 174, 0, 0.86);
+  font-weight: bold;
+}
+
+.buttons2{
+    border-radius: 16px;
+    text-align: center;
+    width: 650px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+
+}
+
+/* Existing CSS styles... */
+
+/* Media Query for devices with a max width of 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        align-items: center; /* Center align items */
+        height: 40px;
+    }
+
+    .navbar .Nav-links {
+        gap: 10px; /* Reduce gap between links */
+    }
+
+    .welcome-text {
+        font-size: 30px; /* Reduce font size for welcome text */
+        text-align: center; /* Center align text */
+    }
+
+    .search-bar {
+        padding: 20px; /* Reduce padding */
+    }
+
+    .search-bar-1 {
+        width: 80%; /* Make search bar responsive */
+    }
+
+    .buttons2 {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 100%; /* Full width */
+    }
+
+    .buttons2 a {
+        width: 100%; /* Make buttons full width */
+        text-align: center; /* Center align text */
+        padding: 10px; /* Add padding for better touch targets */
+    }
+}
+
+/* Media Query for devices with a max width of 480px (mobile devices) */
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .sign-in {
+        width: 100%; /* Make sign-in button full width */
+        text-align: center; /* Center align text */
+    }
+
+    .hero {
+        height: auto; /* Allow hero section to adjust height */
+    }
+
+    .welcome-text {
+        font-size: 24px; /* Further reduce font size */
+    }
+
+    .search-bar-1 {
+        height: 35px; /* Adjust height */
+    }
+
+    .btn1 {
+        height: 35px; /* Adjust button height */
+    }
+}
+
+/*  .products-section{
+     background-color: white;
+    background-image: url('https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?t=st=1733479195~exp=1733482795~hmac=7b477b1396bfead7cc99c0bbb3811770850184eb9b11c47dda7e018d42ae13c8&w=900');
+                        width: 100%;
+                        height: 100vh; 
+                        background-size: cover   */
+}
+
+    </style>
+     <body>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="https://marketplace.canva.com/EAF7Nm6GMzo/1/0/1600w/canva-black-white-modern-concept-football-club-logo-3-nFuSBwgIA.jpg" width="20px" alt="Logo">
+                    <span>SHOP-EASY</span>
+                </div>
+
+                <div class="Nav-links">
+                    <a href="about.html">ABOUT</a>
+                   <!-- <a href="#">CART</a> -->
+                <!-- <a href="#">BEST SELLERS</a>   --> 
+                    <a href="contact.html">CONTACT</a>
+                    <a href="Products.html">PRODUCTS</a>
+                </div>
+                
+                <div class="sign-in">
+                    <a href="sign-in.html">SIGN IN</a>
+                </div>
+            </nav>  <!-- End .nav -->
+                
+                <div class="hero"> 
+                    <div class="welcome-text"> 
+                        <h1><marquee scrollamount="20" scrolldelay="10">Welcome to Shop-EasyㅤㅤHappy Shopping!!ㅤㅤWelcome to Shop-EasyㅤㅤHappy Shopping!!ㅤㅤWelcome to Shop-EasyㅤㅤHappy Shopping!!ㅤㅤWelcome to Shop-EasyㅤㅤHappy Shopping!!</marquee></h1>
+                        
+                    </div>
+
+                    <div class="search-bar">
+                        <input class="search-bar-1"  type="text" placeholder="Search for products">
+                        <button class="btn1">
+                            <a1 href="#">SEARCH</a1>
+                        </button>
+                        
+                    </div>
+
+                    <div class="buttons2">
+                        <a href="#">SHOP NOW</a>
+                        <a href="#">SEE MORE</a>
+                    </div>
+                    <div class="products-section">
+
+
+
+     
+
+
+
+                    </div>         <!-- End .products=section -->
+
+
+
+
+                </div>  <!-- End .hero -->
+        </div> <!-- End .container1 -->
+     </body>
+</html>

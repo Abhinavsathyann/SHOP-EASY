@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>SHOPE-EASY LOGIN</title>
+    </head>
+    <script>
+                 function validateLogin() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if (username === "" || password === "") {
+                    alert("Please enter both username and password.");
+                    return false; // Prevent form submission
+                }
+
+                // If both fields are filled, you can proceed with the login
+                // For now, we'll just log the values to the console
+                console.log("Username: " + username);
+                console.log("Password: " + password);
+                // Here you can add your login logic (e.g., API call)
+                return true; // Allow form submission
+            }
+
+
+    </script>
+    <style>
+body{
+
+ }
+
+.container{
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/22/20/20/online-6817350_1280.jpg');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+}
+.login{
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.59);
+    width: 440px;
+}
+
+.login-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+.text-1{
+    color: rgba(240, 248, 255, 0.821);
+}
+.login input{
+    background-color: transparent;
+    border-radius: 150px;
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+
+
+
+}
+.btn3 {
+    border: 2px solid rgb(221, 236, 0); 
+    border-radius: 150px; 
+    background-color: transparent; 
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    color: aliceblue;
+}
+
+.btn4{
+    border: 2px solid  rgb(221, 236, 0);
+    border-radius: 150px; 
+    background-color: transparent; 
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn5 {
+    border: 1px solid rgb(221, 236, 0);
+    border-radius: 150px;
+    margin: 10px;
+    height: 30px;
+    width: 100px; 
+    color: azure; 
+    justify-content: end;
+    align-items: end;
+    text-decoration: none; 
+
+}
+
+.btn5 a {
+    color: azure; 
+    text-decoration: none; 
+    
+}
+.btn5:hover{
+    background-color: rgba(0, 0, 0, 0.297);
+}
+.button-1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+    </style>
+    <body>
+        <div class="container">
+            <div class="login">
+
+                <div class="login-text">
+                    <h1>LOGIN</h1>
+                </div>
+
+                <P class="text-1">Please enter your login and password</P>
+
+                <div class="button-1">
+                    <input class="btn3" type="text" placeholder="Username" required>
+                  
+                    <input class="btn4" type="password" placeholder="password" required>
+                    <a class="text-2" href="#">Forgot password?</a>
+                    <a class="btn5" onclick="validateLogin()">Login</a>
+             </div>
+
+             
+                
+
+            </div><!-- End .login -->
+        </div> <!-- End .container1 -->
+    </body>
+</html>

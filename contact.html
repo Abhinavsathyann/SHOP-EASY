@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Contact US</title>
+    </head>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        .contact-us {
+            background-color: rgb(255, 255, 255);
+            width: 100%; /* Set width to 100% */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally */
+
+        }
+
+    .text1 {
+    background-color:   rgba(255, 174, 0, 0.86);
+    width: 100%; /* Set width to 100% */
+    margin: 0; /* Remove any margin */
+    padding: 20px 0; /* Add some padding for top and bottom */
+}
+  
+  
+  
+  
+        .text1 h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+        .text1 p {
+            text-align: center;
+            font-size: 30px;
+        }
+        .contact-box {
+            border: 3px solid white;
+            font-size: 30px;
+            text-align: center; /* Center text inside the box */
+            padding: 20px; /* Add some padding */
+            max-width: 800px; /* Set a maximum width */
+            width: 100%; /* Allow it to be responsive */
+            margin: 20px; /* Add margin to create space on the sides */
+
+        }
+        .contact-box input {
+            height: 40px;
+            width: 100%; /* Make input fields responsive */
+            max-width: 700px; /* Set a maximum width for input fields */
+            border-radius: 4px;
+            background-color: rgba(128, 128, 128, 0.141);
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 10px auto; /* Center input fields */
+            display: block; /* Make inputs block elements */
+        }
+        #contact-Message {
+            height: 100px; /* Adjust height for better visibility */
+            width: 100%; /* Make message input responsive */
+            max-width: 700px; /* Set a maximum width for message input */
+            border-radius: 4px;
+            margin: 10px auto; /* Center message input */
+        }
+        .btn1 {
+            width: 200px;
+            height: 50px; /* Corrected height */
+            font-size: 25px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color:  rgba(255, 174, 0, 0.86);
+            color: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin: 20px auto; /* Center button */
+            display: block; /* Make button a block element */
+        }
+        .about {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            text-align: center; /* Center text */
+            background-color: rgba(0, 0, 255, 0.792);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            margin-top: 20px; /* Add some space above */
+        }
+        .about a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin: 5px 0; /* Add some space between links */
+        }
+    </style>
+    <body>
+        <div class="contact-us">
+            <div class="text1">
+                <h1>CONTACT US</h1>
+                <p>Shop-Easy</p>
+            </div>
+            <div class="contact-box">
+                <p>Your e-mail:</p>
+                <input type="email" name="email">
+                <p>Subject:</p>
+                <input type="text" name="Subject">
+                <p>Message:</p>
+                <input id="contact-Message" type="text" name="Message">
+                <div class="button">
+                    <button type="button" class="btn1">Send Message</button>
+                </div>
+                <div class="about">
+                    <p>OFFICE HOURS: Monday-Thursday: 08:00 to 18:00</p>
+                    <a href="mailto:support@shope-easy.com">E-mail: support@shope-easy.com</a>
+                    <a href="tel:+0460123456">Call: 0460 123456</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
